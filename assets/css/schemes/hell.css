@@ -1,0 +1,21 @@
+/* Fire scheme */
+:root {
+    --color-neutral: 255, 255, 255;
+    /* Stone */
+    --color-neutral-50: 247, 247, 247;	--color-neutral-100: 205, 204, 204;	--color-neutral-200: 164, 162, 162;	--color-neutral-300: 122, 119, 119;	--color-neutral-400: 85, 81, 81;	--color-neutral-500: 74, 71, 71;	--color-neutral-600: 63, 60, 60;	--color-neutral-700: 53, 50, 50;	--color-neutral-800: 42, 40, 40;	--color-neutral-900: 31, 30, 30;	--color-neutral-950: 20, 20, 20;
+    /* Orange */
+    --color-primary-50: 255, 254, 244;	--color-primary-100: 255, 250, 191;	--color-primary-200: 255, 246, 138;	--color-primary-300: 255, 241, 85;	--color-primary-400: 242, 226, 41;	--color-primary-500: 212, 198, 36;	--color-primary-600: 181, 169, 31;	--color-primary-700: 150, 140, 25;	--color-primary-800: 120, 112, 20;	--color-primary-900: 89, 83, 15;	--color-primary-950: 59, 55, 10;
+    /* Rose */
+    --color-secondary-50: 255, 246, 242;
+    --color-secondary-100: 255, 202, 179;
+    --color-secondary-200: 255, 157, 115;	
+    --color-secondary-300: 255, 113, 51;	
+    --color-secondary-400: 242, 73, 0;	
+    --color-secondary-500: 212, 64, 0;	
+    --color-secondary-600: 181, 55, 0;	
+    --color-secondary-700: 150, 45, 0;	
+    --color-secondary-800: 120, 36, 0;	
+    --color-secondary-900: 89, 27, 0;
+    --color-secondary-950: 59, 18, 0;
+  }
+  

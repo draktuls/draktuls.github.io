@@ -1,0 +1,23 @@
+languageCode = "en-US"
+languageName = "English (USA)"
+languageDirection = "ltr"
+weight = 1
+
+title = "Drak"
+copyright = "&copy; 2023 Drak"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["blog"]
+  description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+
+[params.author]
+  name = "Drak's infosec cave"
+  headline = "Jan"
+  links = [
+    { circle-info = "/about" },
+    { email = "/about" },
+    { discord = "https://discord.com/users/308273436076015618" },
+    { github = "https://github.com/draktuls" },
+  ]
