@@ -1,5 +1,6 @@
 ---
 title: "About me"
+description: "More description about myself"
 date: 2020-08-14
 draft: false
 slug: "about"
@@ -9,19 +10,22 @@ showReadingTime: false
 showEdit: false
 showWordCount: false
 showToc: false
+centerTitle: true
 ---
 
-My name is Jan and I go by drak or draktuls *(which originated in the game Warcraft III)*.
+---
+My name is Jan and I go by drak or draktuls *(some of you may recognize similar name from the game Warcraft III)*.
 
-I am very enthusiastic about infosec as whole and I love writing custom tools.
-However I am currently focusing on these fields:
+I am very enthusiastic about infosec as whole. But mostly I dig low level stuff. I also love writing custom tools.
+
+Currently my main focus is on:
 - Exploit development
 - Vulnerability research
 - Reverse engineering
 
 **Contact**
 
-If you wish to contact me, the best bets are probably these:
+If you wish to contact me, the best bet are probably these:
 - [Discord](https://discord.com/users/308273436076015618)
 - [Email](mailto:dr4k.sec{at}gmail.com)
 

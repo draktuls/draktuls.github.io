@@ -20,8 +20,7 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  logo = "img/IllidanBTN.JPG"
-  # logoDark = "img/dark-logo.jpg"
+  logo = "img/BTNEvilIllidanUpscaledCutLogo.jpg"
   showTitle = true
 
 [footer]
@@ -42,7 +41,7 @@ fingerprintAlgorithm = "sha256"
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
-  editURL = "content/posts"
+  editURL = "content/blog"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true

@@ -1,5 +1,6 @@
 ---
 title: "Auth-or-out"
+description: "Hack the Box pwn challenge about heap exploitation with custom allocator"
 date: 2022-08-15
 summary: "In this post we will have a look at Hack the Box pwn challenge called `Auth-or-out`. Essentially the main gist was custom heap allocator which had to exploited."
 tags: ["Hack The Box", "Binary exploitation", "Heap", "Reversing"]

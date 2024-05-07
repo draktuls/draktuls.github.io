@@ -10,7 +10,7 @@ copyright = "&copy; 2023 Drak"
   dateFormat = "2 January 2006"
 
   mainSections = ["blog"]
-  description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+  description = "Drak's personal information security blog"
 
 [params.author]
   name = "Drak's infosec cave"

@@ -1,5 +1,6 @@
 ---
 title: "Blog posts"
+description: "Main blog feed"
 
 cascade:
   showDate: false

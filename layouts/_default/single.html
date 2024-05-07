@@ -3,11 +3,20 @@
   {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover }}
   <article>
+    {{ if .Params.centerTitle | default (.Site.Params.article.centerTitle | default false) }}
+    <header class="grow lg:center-large text-center">
+    {{ else }}
     <header class="max-w-prose">
+    {{ end }}
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
+
+      {{ if .Params.centerTitle | default (.Site.Params.article.centerTitle | default false) }}
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral grow lg:center-large">
+      {{ else }}
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ end }}
         {{ .Title | emojify }}
       </h1>
       {{ if or

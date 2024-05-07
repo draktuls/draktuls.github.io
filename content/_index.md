@@ -1,5 +1,6 @@
 ---
-title: "test"
+title: "Drak's infosec blog"
+description: "Information security blog"
 ---
 
 {{< lead >}}
