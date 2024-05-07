@@ -16,7 +16,7 @@ centerTitle: true
 ---
 My name is Jan and I go by drak or draktuls *(some of you may recognize similar name from the game Warcraft III)*.
 
-I am very enthusiastic about infosec as whole. But mostly I dig low level stuff. I also love writing custom tools.
+I am very enthusiastic about infosec as whole. But I am mostly interested in the low level stuff. I also love writing custom tools.
 
 Currently my main focus is on:
 - Exploit development
