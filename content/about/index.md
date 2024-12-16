@@ -1,7 +1,7 @@
 ---
-title: "About me"
-description: "More description about myself"
-date: 2020-08-14
+title: "; whoami /all ;"
+description: "About me"
+date: 2024-12-16
 draft: false
 slug: "about"
 showDate: false
@@ -14,14 +14,14 @@ centerTitle: true
 ---
 
 ---
-My name is Jan and I go by drak or draktuls *(some of you may recognize similar name from the game Warcraft III)*.
+My name is Honza and I go by drak or draktuls *(some of you may recognize similar name from the game Warcraft III)*.
 
-I am very enthusiastic about infosec as whole. But I am mostly interested in the low level stuff. I also love writing custom tools.
+Nowadays I mainly focus on low-level stuff which includes Exploit Development, Vulnerability Research and of course Reverse Engineering.
+I like to challenge myself in these areas, but as of now my interests lie in the realms of Mobiles and Firmwares.
 
-Currently my main focus is on:
-- Exploit development
-- Vulnerability research
-- Reverse engineering
+Apart from these skills I am trying to improve myself in areas like Web Exploitation and overall Penetration Testing (Full PWNs).
+
+I am also very much fond of writing custom offensive tooling.
 
 **Contact**
 

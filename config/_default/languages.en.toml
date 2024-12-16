@@ -3,8 +3,8 @@ languageName = "English (USA)"
 languageDirection = "ltr"
 weight = 1
 
-title = "Drak"
-copyright = "&copy; 2023 Drak"
+title = "Drak's infosec blog"
+copyright = "&copy; 2023 Draksec"
 
 [params]
   dateFormat = "2 January 2006"
@@ -13,11 +13,11 @@ copyright = "&copy; 2023 Drak"
   description = "Drak's personal information security blog"
 
 [params.author]
-  name = "Drak's infosec cave"
-  headline = "Jan"
+  name = "Drak's personal information security blog"
+  headline = "Honza"
   links = [
     { circle-info = "/about" },
-    { email = "/about" },
+    { email = "mailto:dr4k.sec{at}gmail.com" },
     { discord = "https://discord.com/users/308273436076015618" },
     { github = "https://github.com/draktuls" },
   ]

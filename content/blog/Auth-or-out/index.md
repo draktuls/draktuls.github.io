@@ -3,13 +3,13 @@ title: "Auth-or-out"
 description: "Hack the Box pwn challenge about heap exploitation with custom allocator"
 date: 2022-08-15
 summary: "In this post we will have a look at Hack the Box pwn challenge called `Auth-or-out`. Essentially the main gist was custom heap allocator which had to exploited."
-tags: ["Hack The Box", "Binary exploitation", "Heap", "Reversing"]
+tags: ["Hack The Box", "Exploit Development", "Heap", "Reverse Engineering", "Userland", "TA allocator"]
 draft: false
 slug: "auth-or-out"
 ---
 
-**This isn't good writeup, since It was not meant to be published when I wrote it**
-It's here to act like a hello world post.
+**This isn't good writeup, since It was not meant to be published when I wrote it :D**
+It's essentially here to act like a hello world post.
 
 ## Init
 The only thing we are given is an ELF 64 bit binary.
