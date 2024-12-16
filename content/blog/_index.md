@@ -3,7 +3,7 @@ title: "Memory dumps"
 description: "Main blog feed"
 
 cascade:
-  showDate: True
+  showDate: true
   showAuthor: false
   showSummary: true
   invertPagination: true

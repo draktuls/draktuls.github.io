@@ -1,5 +1,5 @@
 ---
-title: "; whoami /all ;"
+title: "whoami /all"
 description: "About me"
 date: 2024-12-16
 draft: false
@@ -14,7 +14,7 @@ centerTitle: true
 ---
 
 ---
-My name is Honza and I go by drak or draktuls *(some of you may recognize similar name from the game Warcraft III)*.
+My name is Honza and I go by drak or draktuls *(Yes it's from Warcraft)*.
 
 Nowadays I mainly focus on low-level stuff which includes Exploit Development, Vulnerability Research and of course Reverse Engineering.
 I like to challenge myself in these areas, but as of now my interests lie in the realms of Mobiles and Firmwares.

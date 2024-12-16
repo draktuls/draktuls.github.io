@@ -64,6 +64,10 @@ fingerprintAlgorithm = "sha256"
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
 
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+
 [taxonomy]
   showTermCount = true
 

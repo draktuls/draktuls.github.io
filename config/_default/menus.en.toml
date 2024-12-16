@@ -16,7 +16,7 @@
   weight = 20
 
 [[main]]
-  name = "About"
+  name = "whoami /all"
   pageRef = "about"
   weight = 30
 
