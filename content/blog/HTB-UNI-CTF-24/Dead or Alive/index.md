@@ -151,22 +151,25 @@ As for RCE keep in mind this is a newer libc. We don't have any hooking capabili
 So what are the other options?
 
 Well to answer it honestly.. during competion I completely forgot about the easiest way. Which would be Arbitrary Write -> Stack ROP.
-Instead I got completely side tracked by the idea of overwriting `atexit` function handlers (Hadn't done that before).
-And just like that I lost quite a lot of time. But I thought this is the perfect challenge for it and it was a new experience.
+Instead I got completely side tracked by the idea of overwriting `atexit` function handlers. I thought that this challenge was exactly made for this scenario and I had no prior experience in exploiting them. So I was biased from the very beginning.
 
-So for anyone reading this you can choose the easier way:
+And just like that you will lose a lot of precious time during competion.
+
+For anyone reading this you can choose the easier way (This is not however written here):
 1. Acquire leaks - libc and heap only
 2. Find `environ` value - stack leak in `libc`
 3. Arbitrary write to replace return with one gadget
 4. Profit
 
-But my way is unfortunately a little bit more complicated:
+But my way is a little bit more complicated:
 1. Acquire leaks - libc, heap and ld
 2. Use arbitrary read to get encrypted `dl_fini` and reverse it to get key (It's not really an ecryption per say, but whatever)
 3. Forge custom exit handlers on the heap with ecnrypted `system` function pointer
 4. Use arbitrary write to change `exit_funcs` pointer to our forged one
 5. Cause an exit to execute code
 6. Profit, but slower
+
+*[Very nice writeup about it aswell](https://ctftime.org/writeup/34804)*
 
 ### Controlling the bug
 
