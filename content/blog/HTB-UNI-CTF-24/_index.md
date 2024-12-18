@@ -1,6 +1,7 @@
 ---
 title: "Hack The Box University CTF 2024: Binary Badlands"
-description: "HTB University CTF 2024 writeups"
+description: "Collection of HTB University CTF 2024 Pwn writeups"
+summary: "In December of 2024 I participated in University 2024 CTF by Hack The Box. My main focus was the Pwn category which was successfully solved during competion."
 showReadingTime: false
 showWordCount: false
 slug: "htb-uni-ctf-24"
@@ -14,8 +15,8 @@ cascade:
   invertPagination: true
 ---
 
-Writeups from [HTB University CTF 2024: Binary Badlands](https://www.hackthebox.com/universities/university-ctf-2024)
+As for the Pwn category you can find all my writeups below.
 
-My main focus was on the Pwn category
+*I also attempted to solve web challenge EncoDecept, however we were unable to figure out XSS payload - which was the first stage of the challenge.*
 
 ---

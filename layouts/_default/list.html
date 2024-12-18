@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $toc := and (.Params.showTableOfContents | default (.Site.Params.list.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
-  <header>
+  <header class="items-center justify-center text-center">
     {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
       {{ partial "breadcrumbs.html" . }}
     {{ end }}
@@ -11,7 +11,7 @@
       mt-12
     {{- else -}}
       mt-0
-    {{- end }} prose flex max-w-full flex-col dark:prose-invert"
+    {{- end }} prose flex max-w-full flex-col dark:prose-invert items-center justify-center text-center"
   >
     {{ if $toc }}
       <div class="order-first px-0 min-w lg:center-large">
@@ -25,7 +25,7 @@
     </div>
   </section>
   {{ if .Data.Pages }}
-    <section>
+    <section class="mb-3 flex flex-col items-center">
       {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
         {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
           <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">

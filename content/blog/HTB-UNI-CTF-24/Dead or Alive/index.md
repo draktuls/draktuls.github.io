@@ -218,10 +218,11 @@ We need to allocate one bounty with the description with size of `bounty` struct
 Then the other must be bigger.
 
 The reason for this is that chunks of smaller sizes are sorted into `tcache` bins. They are essentially single linked lists of several chunks which can be quickly replaced by another of that size.
+These are also served in LIFO order.
 
-These are served in LIFO order.
 Therefore let's imagine we delete first bounty..
-The tache bins will look like:
+
+The tcache bins will look like:
 ```
 Tcache 0x30: Bounty 0 description <- Bounty 0
 ```
@@ -291,6 +292,7 @@ But these values are different from the ones in unsorted bins. They only contain
 
 The pointer to a single linked list is obfuscated using this formula:
 `Ptr = (L >> 12) ^ P`
+
 L = Storage Location
 P = Current `fd` pointer
 
@@ -299,7 +301,7 @@ P = Current `fd` pointer
 And it all boils down to how to defeat this? Can we get original pointer back? 
 Yes if the L is on the same position as P. Which in this case it is.
 
-There are several POCs available online...
+*There are several POCs available online...*
 
 And thus we are capable of getting stable heap leak. The first byte is predictable, therefore it's not a problem.
 
@@ -331,7 +333,7 @@ The main idea behind can be shown using this diagram:
 |        Padding       |     |   FD            BK   | |  |   FD            BK   |     |  AAAAAAAAAAAAAAAAAA  |
 +----------------------+     +----------------------+ |  +----------------------+     +----------------------+
 | Forged chunk header  |     | Forged chunk header  | |  | Forged chunk header  |     |  AAAAAAAAAAAAAAAAAA  |
-+----------------------+     +----------------------+ +->|         Freed        |     |  AAAAAAAAAAAAAAAAAA  |<---- Still Freed
++----------------------+     +----------------------+ +->|         Freed        |     |  AAAAAAAAAAAAAAAAAA  |<-- Still Freed
 |                      |     |                      |    +----------------------+     +----------------------+
 |        Padding       |     |        Padding       |    |   FD            BK   |     |  Custom FD           |
 |                      |     |                      |    |                      |     |                      |
