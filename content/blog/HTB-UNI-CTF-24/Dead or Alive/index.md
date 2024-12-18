@@ -175,7 +175,7 @@ Let's first dive in to the actual bug and how could we abuse it.
 Our goal is to replace the first `bounty` struct with arbitrarily controlled `description` from other allocation. This way we can abuse the functionalities of the program itself.
 
 So in order to achieve this we need to create this heap layout:
-```goat
+```goat {height="600" caption="Controlling bug; init"}
 +---------------------+              
 |                     |              
 |                     |              
@@ -236,7 +236,7 @@ Tcache 0x60: Bounty 1 description
 In this case our next allocation would take the first chunk and if the `descrption` is the same size it would take place on `Bounty 0`
 
 Let's illustrate this:
-```goat
+```goat {height="600" width="400" caption="Controlling bug; overwrite"}
 +---------------------+                  
 |                     |                  
 |       Bounty 2      |                  
@@ -381,7 +381,7 @@ How can we deal with this?
 Well we don't need the allocator to create that big of a chunk for us. We can just forge our custom one!
 
 To illustrate the idea:
-```goat
+```goat {height="600" caption="Leaking libc; unsorted bin forgery"}
 +----------------------+
 |                      |
 |                      |

@@ -170,7 +170,7 @@ To achieve this condition we need to do a little bit of heap grooming, otherwise
 Let me illustrate the bug first.
 
 First let's assume this starting position:
-```goat
+```goat {height="600" width="400" caption="Grooming; init"}
 +---------------------+                  
 |                     |                  
 |                     |                  
@@ -206,7 +206,7 @@ First let's assume this starting position:
 The `Journal 0 data` must have the same size as the journal structure size. Otherwise this condition would not work. 
 
 If we then remove the index 0 from the heap:
-```goat
+```goat {height="600" width="400" caption="Grooming; free"}
 +---------------------+                 
 |                     |                 
 |                     |                 
@@ -241,7 +241,7 @@ If we then remove the index 0 from the heap:
 ```
 
 And now we add another entirely new chunk:
-```goat
+```goat {height="700" width="400" caption="Grooming; use after free achieved"}
 +---------------------+                      
 |                     |                      
 |                     |                      
