@@ -163,8 +163,8 @@ For anyone reading this you can choose the easier way (This is not however writt
 
 But my way is a little bit more complicated:
 1. Acquire leaks - libc, heap and ld
-2. Use arbitrary read to get encrypted `dl_fini` and reverse it to get key (It's not really an ecryption per say, but whatever)
-3. Forge custom exit handlers on the heap with ecnrypted `system` function pointer
+2. Use arbitrary read to get encrypted `dl_fini` and reverse it to get key (It's not really an encryption per say, but whatever)
+3. Forge custom exit handlers on the heap with encrypted `system` function pointer
 4. Use arbitrary write to change `exit_funcs` pointer to our forged one
 5. Cause an exit to execute code
 6. Profit, but slower
