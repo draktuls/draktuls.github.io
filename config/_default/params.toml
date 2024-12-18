@@ -77,10 +77,3 @@ fingerprintAlgorithm = "sha256"
 #[umamiAnalytics]
 #  site = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"  
 #  region = "eu"  # Can be either "eu" or "us"
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
-  description = "Drak's personal information security blog and knowledge dump"

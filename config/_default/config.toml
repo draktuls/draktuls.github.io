@@ -5,8 +5,16 @@ theme = "congo"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
+enableGitInfo = true
 paginate = 15
 summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
+  description = "Drak's personal information security blog and knowledge dump"
