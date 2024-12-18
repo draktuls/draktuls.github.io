@@ -10,7 +10,7 @@ cascade:
 ---
 
 {{< lead >}}
-Mixup of my thoughts, CTF writeups or other knowledge dumps
+Mixup of my thoughts, CTF writeups or other knowledge dumps I would like to share
 {{< /lead >}}
 
 You can also filter the blog posts based on [`tags`](/tags)

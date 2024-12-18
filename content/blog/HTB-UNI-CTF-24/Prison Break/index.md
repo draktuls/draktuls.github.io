@@ -453,7 +453,7 @@ Popped it:
 
 ![Image with shell popped on the target system](shell.png)
 
-## 
+## Attachment
 
 - [Exploit script](dstr.py)
 - [Challenge files](pwn_prison_break.zip)

@@ -5,6 +5,7 @@ date: 2024-12-16
 draft: false
 slug: "about"
 showDate: false
+showDateUpdated: false
 showAuthor: false
 showReadingTime: false
 showEdit: false
