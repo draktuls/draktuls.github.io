@@ -16,12 +16,12 @@ centerTitle: true
 ---
 My name is Honza and I go by drak or draktuls *(Yes it's from Warcraft)*.
 
-Nowadays I mainly focus on low-level stuff which includes Exploit Development, Vulnerability Research and of course Reverse Engineering.
+Nowadays I mainly focus on low-level stuff which includes Exploit Development, Vulnerability Research and Reverse Engineering.
 I like to challenge myself in these areas, but as of now my interests lie in the realms of Mobiles and Firmwares.
 
 Apart from these skills I am trying to improve myself in areas like Web Exploitation and overall Penetration Testing (Full PWNs).
 
-I am also very much fond of writing custom offensive tooling.
+I am also very much fond of writing custom offensive tooling which also includes anything post-exploitation.
 
 **Contact**
 
