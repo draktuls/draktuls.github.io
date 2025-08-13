@@ -1,7 +1,7 @@
 ---
 title: "whoami /all"
 description: "About me"
-date: 2024-12-16
+date: 2025-08-13
 draft: false
 slug: "about"
 showDate: false
@@ -18,11 +18,9 @@ centerTitle: true
 My name is Honza and I go by drak or draktuls *(Yes it's from Warcraft)*.
 
 Nowadays I mainly focus on low-level stuff which includes Exploit Development, Vulnerability Research and Reverse Engineering.
-I like to challenge myself in these areas, but as of now my interests lie in the realms of Mobiles and Firmwares.
+I like to challenge myself in these areas and grow my knowledge. The primary interest is currently in the realms of Mobile exploitation and also reverse engineering vendor firmwares.
 
-Apart from these skills I am trying to improve myself in areas like Web Exploitation and overall Penetration Testing (Full PWNs).
-
-I am also very much fond of writing custom offensive tooling which also includes anything post-exploitation.
+Apart from these skills I occasionally also do Web Exploitation or Penetration Testing related stuff and I am very much fond of writing custom offensive tooling including post-exploitation payloads. 
 
 **Contact**
 
@@ -35,53 +33,15 @@ Feel free to use my PGP:
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
-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
-=2pnO
+mDMEaJzx3RYJKwYBBAHaRw8BAQdAPBK4/OQi9fvZcsCqGZdeKSdzlvnI4mPXXzFg
+5OH4ocm0GEphbiA8ZHI0ay5zZWNAZ21haWwuY29tPoiTBBMWCgA7FiEECQFpqg20
+t1WuEGUY4l3v+gDXUcwFAmic8d0CGwMFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcC
+F4AACgkQ4l3v+gDXUczq4gD9Em1TgC+JleTPDovAHlh1j+zEmEeoyCQIGsKoL748
+H1YA/jP8nR4sw9DUt+/z0s3Z7Sf9RhJlD3DAdX+z2L+N0AAFuDgEaJzx3RIKKwYB
+BAGXVQEFAQEHQNnr4iQNHk5piIFJhoP4ue4sPbAVhDgFY119pL5xeKc3AwEIB4h4
+BBgWCgAgFiEECQFpqg20t1WuEGUY4l3v+gDXUcwFAmic8d0CGwwACgkQ4l3v+gDX
+UcycFwD/VoMrRYsdFLv2DoNlGExHYZF69ysRUCfjdarV0ygtNA8A/jqSrS/AjTXP
+0wy0uEHZCqbW3+n5+O3QqA8/zy8OeG4N
+=AW5i
 -----END PGP PUBLIC KEY BLOCK-----
 ```
