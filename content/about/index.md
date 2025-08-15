@@ -28,20 +28,4 @@ If you wish to contact me, the best bet are probably these:
 - [Discord](https://discord.com/users/308273436076015618)
 - [Email](mailto:dr4k.sec{at}gmail.com)
 
-Feel free to use my PGP:
-
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-
-mDMEaJzx3RYJKwYBBAHaRw8BAQdAPBK4/OQi9fvZcsCqGZdeKSdzlvnI4mPXXzFg
-5OH4ocm0GEphbiA8ZHI0ay5zZWNAZ21haWwuY29tPoiTBBMWCgA7FiEECQFpqg20
-t1WuEGUY4l3v+gDXUcwFAmic8d0CGwMFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcC
-F4AACgkQ4l3v+gDXUczq4gD9Em1TgC+JleTPDovAHlh1j+zEmEeoyCQIGsKoL748
-H1YA/jP8nR4sw9DUt+/z0s3Z7Sf9RhJlD3DAdX+z2L+N0AAFuDgEaJzx3RIKKwYB
-BAGXVQEFAQEHQNnr4iQNHk5piIFJhoP4ue4sPbAVhDgFY119pL5xeKc3AwEIB4h4
-BBgWCgAgFiEECQFpqg20t1WuEGUY4l3v+gDXUcwFAmic8d0CGwwACgkQ4l3v+gDX
-UcycFwD/VoMrRYsdFLv2DoNlGExHYZF69ysRUCfjdarV0ygtNA8A/jqSrS/AjTXP
-0wy0uEHZCqbW3+n5+O3QqA8/zy8OeG4N
-=AW5i
------END PGP PUBLIC KEY BLOCK-----
-```
+Feel free to use my [PGP](./draksec.asc)
